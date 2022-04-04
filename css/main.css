@@ -1,0 +1,67 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    overflow-x: hidden;
+}
+.create{
+    position: relative;
+    margin-right: 340px;
+    width: 120px;
+}
+table{
+    margin: auto;
+    padding: 4px;
+    background-color: rgb(206, 211, 214);
+    width: 450px;
+    border-collapse: collapse;
+}
+th{
+    border: solid 1px black;
+    background-color: rgb(46, 98, 98);
+}
+tr{
+    background-color: rgb(125, 207, 179);
+    height: 30px;
+}
+td{
+    height: 30px;
+    border: solid 1px black;
+    padding: 4px;
+}
+button{
+    border-radius: 5px;
+    margin: 4px;
+    width: 60px;
+}
+.read{
+    background-color: rgb(75, 75, 235);
+}
+.update{
+    background-color: rgb(189, 189, 76);
+}
+.delete{
+    background-color: rgb(160, 76, 76);
+}
+.modal{
+    background-color: rgb(102, 101, 110);
+    position: absolute;
+    width: 400px;
+    height: 150px;
+    text-align: left;
+    line-height: 1.5;
+    padding: 5px;
+    margin-top: 40px;
+    /* block-size: fit-content; */
+    left: 150%;
+}
+.modal.open{
+    left: 38.5%;
+    transition: left .5s;
+}
+p{
+    font-family:sans-serif;
+}
+.close-modal{
+    width: 30px;
+  
+}
